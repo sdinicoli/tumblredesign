@@ -11,6 +11,7 @@
 		FA6E9E43292B7B770062D802 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E9E42292B7B770062D802 /* ContentView.swift */; };
 		FA6E9E45292B7B780062D802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6E9E44292B7B780062D802 /* Assets.xcassets */; };
 		FA6E9E48292B7B780062D802 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6E9E47292B7B780062D802 /* Preview Assets.xcassets */; };
+		FA6E9E4F292B7DB40062D802 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E9E4E292B7DB40062D802 /* DashboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		FA6E9E42292B7B770062D802 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA6E9E44292B7B780062D802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA6E9E47292B7B780062D802 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA6E9E4E292B7DB40062D802 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				FA6E9E40292B7B770062D802 /* tumblredesignApp.swift */,
 				FA6E9E42292B7B770062D802 /* ContentView.swift */,
+				FA6E9E4E292B7DB40062D802 /* DashboardView.swift */,
 				FA6E9E44292B7B780062D802 /* Assets.xcassets */,
 				FA6E9E46292B7B780062D802 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA6E9E43292B7B770062D802 /* ContentView.swift in Sources */,
+				FA6E9E4F292B7DB40062D802 /* DashboardView.swift in Sources */,
 				FA6E9E41292B7B770062D802 /* tumblredesignApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

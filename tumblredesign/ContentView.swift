@@ -10,10 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
+                Text("Dashboard").tabItem { Text("Dashboard") }.tag(1)
+                Text("Tab Content 2").tabItem { Text("Discover") }.tag(2)
+                Text("Tab Content 2").tabItem { Text("Activity") }.tag(3)
+            }
+
         }
         .padding()
     }

@@ -16,7 +16,6 @@ struct ContentView: View {
         }
     
     var body: some View {
-        
             VStack {
                 TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
                     DashboardView().tabItem { Label("Dashboard", systemImage: "list.bullet")
@@ -26,7 +25,6 @@ struct ContentView: View {
                     Text("Tab Content 2").tabItem {Label("Activity", systemImage: "bolt.fill")
                         Text("Editor")}.tag(3)
                 }
-                
                 
                 
                 

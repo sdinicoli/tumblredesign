@@ -63,9 +63,9 @@ struct DashboardView: View {
         var body: some View {
             
             switch selectedFeed {
-            case .following: Text("aaa")
-            case .forYou: Text("bbb")
-            case .yourTags: Text("ccc")
+            case .following: FollowingDash()
+            case .forYou: FollowingDash()
+            case .yourTags: FollowingDash()
                 
             }
         }

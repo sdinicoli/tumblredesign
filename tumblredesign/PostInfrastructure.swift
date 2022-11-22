@@ -26,6 +26,7 @@ struct PostInfrastructure: View {
                     Image("menu")
                         .renderingMode(.template)
                         .resizable()
+                        .aspectRatio(contentMode: .fit)
                         .frame(width: 20, height: 20)
                         .foregroundColor(Color.gray)
                         
@@ -38,6 +39,7 @@ struct PostInfrastructure: View {
     Image("reblog")
         .renderingMode(.template)
         .resizable()
+        .aspectRatio(contentMode: .fit)
         .frame(width: 20, height: 20)
         .foregroundColor(.gray)
 }
@@ -45,8 +47,12 @@ struct PostInfrastructure: View {
                 Button {
                     print("Image tapped!")
                 } label: {
-                    Image(systemName: "heart")
-                        .frame(width: 20.0, height: 20.0)
+                    Image("heart-tumblr")
+                        .renderingMode(.template)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 20, height: 20)
+                        .foregroundColor(.gray)
                 }
 
                 

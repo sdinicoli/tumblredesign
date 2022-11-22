@@ -15,10 +15,7 @@ struct DiscoverView: View {
                 Color("tumblr").ignoresSafeArea()
                 ScrollView{
                     ZStack{
-                        Image("search-back")
-                            .resizable()
-                            .padding()
-                            .searchable(text: $searchText, prompt: "Search tags")
+                        Text("placeholder")
                     }
                     
                     

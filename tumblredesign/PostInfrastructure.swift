@@ -12,25 +12,49 @@ struct PostInfrastructure: View {
         ZStack{
             
             RoundedRectangle(cornerRadius: 11)
-               .foregroundColor(Color("light-gray"))
+                .foregroundColor(Color("light-gray"))
                 .padding()
                 .frame(height: 500)
                 .aspectRatio(contentMode: .fill)
-                .overlay(
-                    Image("search-back")
-                        .resizable()
-                        .scaledToFit()
-                        .padding()
-                       
-                )
-    
-            
-           
-           
+                .shadow(radius: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
                 
-            
+            HStack{
+                    
+                Button {
+                    print("Image tapped!")
+                } label: {
+                    Image("menu")
+                        .renderingMode(.template)
+                        .resizable()
+                        .frame(width: 20, height: 20)
+                        .foregroundColor(Color.gray)
+                        
+                        
+                        
+                }
+                Button {
+    print("Image tapped!")
+} label: {
+    Image("reblog")
+        .renderingMode(.template)
+        .resizable()
+        .frame(width: 20, height: 20)
+        .foregroundColor(.gray)
+}
+                
+                Button {
+                    print("Image tapped!")
+                } label: {
+                    Image(systemName: "heart")
+                        .frame(width: 20.0, height: 20.0)
+                }
+
+                
+                
+            }
+            .offset(x: 130, y:212)
+            .foregroundColor(.gray)
         }
-        .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
     }
 }
 

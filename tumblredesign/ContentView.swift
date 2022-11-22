@@ -12,6 +12,7 @@ struct ContentView: View {
     
     init() {
             UITabBar.appearance().backgroundColor = UIColor(.white)
+        
         }
     
     var body: some View {
@@ -20,14 +21,20 @@ struct ContentView: View {
                 TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
                     DashboardView().tabItem { Label("Dashboard", systemImage: "list.bullet")
                         Text("Editor")}.tag(1)
-                    Text("Tab Content 2").tabItem {Label("Discover", systemImage: "magnifyingglass")
+                    DiscoverView().tabItem {Label("Discover", systemImage: "magnifyingglass")
                         Text("Editor")}.tag(2)
                     Text("Tab Content 2").tabItem {Label("Activity", systemImage: "bolt.fill")
                         Text("Editor")}.tag(3)
                 }
                 
+                
+                
+                
+                
+                
             
             }
+            
             
             
         }
@@ -36,6 +43,7 @@ struct ContentView: View {
         
         
     }
+    
 
 
 struct ContentView_Previews: PreviewProvider {

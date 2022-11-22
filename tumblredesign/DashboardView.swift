@@ -26,17 +26,25 @@ struct DashboardView: View {
             .background(Color("tumblr"))
             .navigationTitle("Your Dashboard")
             .toolbar {
-                
-                Button("+") {
-                    print("aaaaaaa")
+                ToolbarItem(placement: .navigationBarTrailing)                {
+                    NavigationLink(destination: Text("wewe")) {
+                        Image(systemName: "plus")
+                        
+                    }
                 }
-                Button("􀉪") {
+                ToolbarItem(placement: .navigationBarTrailing) {
                     
+                        NavigationLink(destination: Text("wewe")) {
+                            Image(systemName: "person.circle.fill")
+                            
+                        }
                 }
             }
+            .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
             
             
             }
+        
         
         
        

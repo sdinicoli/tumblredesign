@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA2F3F8C292CC3D400993327 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F3F8B292CC3D400993327 /* DiscoverView.swift */; };
+		FA2F3F8E292CC4A300993327 /* PostInfrastructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F3F8D292CC4A300993327 /* PostInfrastructure.swift */; };
 		FA6E9E41292B7B770062D802 /* tumblredesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E9E40292B7B770062D802 /* tumblredesignApp.swift */; };
 		FA6E9E43292B7B770062D802 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E9E42292B7B770062D802 /* ContentView.swift */; };
 		FA6E9E45292B7B780062D802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6E9E44292B7B780062D802 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA2F3F8B292CC3D400993327 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		FA2F3F8D292CC4A300993327 /* PostInfrastructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostInfrastructure.swift; sourceTree = "<group>"; };
 		FA6E9E3D292B7B770062D802 /* tumblredesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tumblredesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6E9E40292B7B770062D802 /* tumblredesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tumblredesignApp.swift; sourceTree = "<group>"; };
 		FA6E9E42292B7B770062D802 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,7 +59,9 @@
 			children = (
 				FA6E9E40292B7B770062D802 /* tumblredesignApp.swift */,
 				FA6E9E42292B7B770062D802 /* ContentView.swift */,
+				FA2F3F8D292CC4A300993327 /* PostInfrastructure.swift */,
 				FA6E9E4E292B7DB40062D802 /* DashboardView.swift */,
+				FA2F3F8B292CC3D400993327 /* DiscoverView.swift */,
 				FA6E9E44292B7B780062D802 /* Assets.xcassets */,
 				FA6E9E46292B7B780062D802 /* Preview Content */,
 			);
@@ -143,6 +149,8 @@
 				FA6E9E43292B7B770062D802 /* ContentView.swift in Sources */,
 				FA6E9E4F292B7DB40062D802 /* DashboardView.swift in Sources */,
 				FA6E9E41292B7B770062D802 /* tumblredesignApp.swift in Sources */,
+				FA2F3F8E292CC4A300993327 /* PostInfrastructure.swift in Sources */,
+				FA2F3F8C292CC3D400993327 /* DiscoverView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

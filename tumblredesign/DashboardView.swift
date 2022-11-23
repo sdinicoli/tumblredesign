@@ -9,6 +9,10 @@ import SwiftUI
 
 struct DashboardView: View {
     @State private var selectedFeed: dashboardType = .following
+    init() { let navBarAppearance = UINavigationBar.appearance()
+                navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+                navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+              }
     var body: some View {
         NavigationStack{
             ScrollView{
@@ -20,11 +24,11 @@ struct DashboardView: View {
                 }
                 .pickerStyle(.segmented)
                 .padding()
-                
                 feedTypeView(selectedFeed: selectedFeed)
             }
             .background(Color("tumblr"))
             .navigationTitle("Your Dashboard")
+          
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing)                {
                     NavigationLink(destination: Text("wewe")) {
@@ -40,7 +44,7 @@ struct DashboardView: View {
                         }
                 }
             }
-            .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
+            
             
             
             }

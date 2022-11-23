@@ -9,6 +9,10 @@ import SwiftUI
 
 struct DiscoverView: View {
     @State private var searchText = ""
+    init() { let navBarAppearance = UINavigationBar.appearance()
+                navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+                navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+              } 
     var body: some View {
         NavigationView{
             ZStack{

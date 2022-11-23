@@ -10,10 +10,6 @@ import UIKit
 
 struct ContentView: View {
     
-    init() {
-            UITabBar.appearance().backgroundColor = UIColor(.white)
-        
-        }
     
     var body: some View {
             VStack {
@@ -25,12 +21,7 @@ struct ContentView: View {
                     Text("Tab Content 2").tabItem {Label("Activity", systemImage: "bolt.fill")
                         Text("Editor")}.tag(3)
                 }
-                
-                
-                
-                
-                
-            
+              
             }
             
             

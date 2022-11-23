@@ -28,10 +28,13 @@ struct PostInfrastructure: View {
                 
                 
                 HStack{
-                    Button {
-                        print("Image tapped!")
-                    } label: {
-                        Image("menu")
+                    Menu {
+                                    Button("Share", action: sharePost)
+                                    Button("Reply", action: replyPost)
+                            }
+                        
+        label: {
+            Image("menu")
                             .renderingMode(.template)
                             .resizable()
                             .aspectRatio(contentMode: .fit)
@@ -61,8 +64,6 @@ struct PostInfrastructure: View {
                             .foregroundColor(.gray)
                     }
                     
-                    
-                    
                 }
                 .offset(x: 80, y:212)
                 .foregroundColor(.gray)
@@ -71,6 +72,10 @@ struct PostInfrastructure: View {
             .foregroundColor(.gray)
         }
     }
+
+        func sharePost() { }
+        func replyPost() { }
+
 }
 
 struct PostInfrastructure_Previews: PreviewProvider {

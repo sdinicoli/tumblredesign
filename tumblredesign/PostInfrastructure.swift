@@ -8,7 +8,13 @@
 import SwiftUI
 
 struct PostInfrastructure: View {
+    
+    
+   
     var body: some View {
+        
+       
+        
         ZStack{
             
             RoundedRectangle(cornerRadius: 11)
@@ -29,18 +35,26 @@ struct PostInfrastructure: View {
                         .offset(x:-80, y:130)
                         .foregroundColor(.blue)
                 }
+                
                 Text("Christina’s World - Andrew Wyeth, 1948.")
                     .font(.callout)
                     .fontWeight(.regular)
                     .multilineTextAlignment(.leading)
                     .offset(x:-10, y:140)
+                
+                Text("#art #andrew wyeth #american art")
+                    .fontWeight(.light)
+                    .font(.footnote)
+                    .multilineTextAlignment(.leading)
+                    .offset(x:-50, y:180)
+                    .foregroundColor(Color.gray)
                 HStack{
                     Text("650 notes")
                         .font(.subheadline)
                         .fontWeight(.semibold)
                         .multilineTextAlignment(.leading)
                         .padding(.trailing)
-                        .offset(x:-80, y:185)
+                        .offset(x:-80, y:180)
                     HStack{
                         Menu {
                             Button("Share", action: sharePost)
@@ -78,7 +92,7 @@ struct PostInfrastructure: View {
                         }
                         
                     }
-                    .offset(x: 80, y:185)
+                    .offset(x: 80, y:180)
                     .foregroundColor(.gray)
                     
                 }

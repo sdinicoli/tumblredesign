@@ -11,8 +11,7 @@ struct DiscoverView: View {
     @State private var searchText = ""
     init() { let navBarAppearance = UINavigationBar.appearance()
                 navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
-                navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
-              } 
+              }
     var body: some View {
         NavigationView{
             ZStack{
@@ -40,7 +39,7 @@ struct DiscoverView: View {
                         }
                     }
                 }
-                .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
+                
                 
                 
             }

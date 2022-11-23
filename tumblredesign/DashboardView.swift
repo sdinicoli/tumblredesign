@@ -11,7 +11,6 @@ struct DashboardView: View {
     @State private var selectedFeed: dashboardType = .following
     init() { let navBarAppearance = UINavigationBar.appearance()
                 navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
-                navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
               }
     var body: some View {
         NavigationStack{

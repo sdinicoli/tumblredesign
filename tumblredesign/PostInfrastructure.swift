@@ -13,8 +13,6 @@ struct PostInfrastructure: View {
    
     var body: some View {
         
-       
-        
         ZStack{
             
             RoundedRectangle(cornerRadius: 11)

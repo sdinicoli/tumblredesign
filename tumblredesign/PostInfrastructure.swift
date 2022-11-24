@@ -35,7 +35,7 @@ struct PostInfrastructure: View {
                 }
                 
                 Image("christina")
-                    .resizable(capInsets: EdgeInsets())
+                    .resizable(capInsets: EdgeInsets(), resizingMode: .stretch)
                     .aspectRatio(contentMode: .fill)
                     .frame(width:361, height:350)
                     .clipShape(RoundedRectangle(cornerRadius: 11))

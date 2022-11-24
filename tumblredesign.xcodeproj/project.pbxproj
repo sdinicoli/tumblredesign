@@ -15,6 +15,8 @@
 		FA6E9E48292B7B780062D802 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6E9E47292B7B780062D802 /* Preview Assets.xcassets */; };
 		FA6E9E4F292B7DB40062D802 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E9E4E292B7DB40062D802 /* DashboardView.swift */; };
 		FA736E54292D3CD7001383C9 /* FollowingDash.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA736E53292D3CD7001383C9 /* FollowingDash.swift */; };
+		FA736E56292F60C1001383C9 /* PostInfrastructure2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA736E55292F60C1001383C9 /* PostInfrastructure2.swift */; };
+		FA736E59292F6294001383C9 /* PostInfrastructure3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA736E58292F6294001383C9 /* PostInfrastructure3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		FA6E9E47292B7B780062D802 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA6E9E4E292B7DB40062D802 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		FA736E53292D3CD7001383C9 /* FollowingDash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingDash.swift; sourceTree = "<group>"; };
+		FA736E55292F60C1001383C9 /* PostInfrastructure2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostInfrastructure2.swift; sourceTree = "<group>"; };
+		FA736E58292F6294001383C9 /* PostInfrastructure3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostInfrastructure3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				FA6E9E40292B7B770062D802 /* tumblredesignApp.swift */,
 				FA6E9E42292B7B770062D802 /* ContentView.swift */,
 				FA2F3F8D292CC4A300993327 /* PostInfrastructure.swift */,
+				FA736E55292F60C1001383C9 /* PostInfrastructure2.swift */,
+				FA736E58292F6294001383C9 /* PostInfrastructure3.swift */,
 				FA6E9E4E292B7DB40062D802 /* DashboardView.swift */,
 				FA2F3F8B292CC3D400993327 /* DiscoverView.swift */,
 				FA736E53292D3CD7001383C9 /* FollowingDash.swift */,
@@ -154,6 +160,8 @@
 				FA6E9E41292B7B770062D802 /* tumblredesignApp.swift in Sources */,
 				FA2F3F8E292CC4A300993327 /* PostInfrastructure.swift in Sources */,
 				FA2F3F8C292CC3D400993327 /* DiscoverView.swift in Sources */,
+				FA736E56292F60C1001383C9 /* PostInfrastructure2.swift in Sources */,
+				FA736E59292F6294001383C9 /* PostInfrastructure3.swift in Sources */,
 				FA736E54292D3CD7001383C9 /* FollowingDash.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

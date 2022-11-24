@@ -13,13 +13,9 @@ struct FollowingDash: View {
             VStack{
                 PostInfrastructure()
                 
-                PostInfrastructure()
+                PostInfrastructure2()
                 
-                PostInfrastructure()
-                
-                PostInfrastructure()
-                
-                PostInfrastructure()
+                PostInfrastructure3()
             }
         }
         

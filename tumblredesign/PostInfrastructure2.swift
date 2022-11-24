@@ -1,13 +1,14 @@
 //
-//  PostInfrastructure.swift
+//  PostInfrastructure2.swift
 //  tumblredesign
 //
-//  Created by Sonia Di Nicoli on 22/11/22.
+//  Created by Sonia Di Nicoli on 24/11/22.
 //
+
 
 import SwiftUI
 
-struct PostInfrastructure: View {
+struct PostInfrastructure2: View {
     
     
    
@@ -34,19 +35,20 @@ struct PostInfrastructure: View {
                         .foregroundColor(.blue)
                 }
                 
-                Image("christina")
-                    .resizable(capInsets: EdgeInsets())
+                Image("christina2")
+                    .renderingMode(.original)
+                    .resizable(capInsets: EdgeInsets(top: 0.0, leading: 0.0, bottom: 50.0, trailing: 0.0))
                     .aspectRatio(contentMode: .fill)
                     .frame(width:361, height:350)
                     .clipShape(RoundedRectangle(cornerRadius: 11))
                     .offset(y:-48)
                 
-                Text("Christina’s World - Andrew Wyeth, 1948.")
+                Text("Christina Olson - Andrew Wyeth, 1947.")
                     .font(.callout)
+                    .foregroundColor(.black)
                     .fontWeight(.regular)
                     .multilineTextAlignment(.leading)
                     .offset(x:-10, y:-2)
-                    .foregroundColor(.black)
                 
                 Text("#art #andrew wyeth #american art")
                     .fontWeight(.light)
@@ -113,8 +115,8 @@ struct PostInfrastructure: View {
 
 }
 
-struct PostInfrastructure_Previews: PreviewProvider {
+struct PostInfrastructure2_Previews: PreviewProvider {
     static var previews: some View {
-        PostInfrastructure()
+        PostInfrastructure2()
     }
 }

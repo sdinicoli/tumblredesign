@@ -1,15 +1,13 @@
 //
-//  DiscoverView.swift
+//  ActivityView.swift
 //  tumblredesign
 //
-//  Created by Sonia Di Nicoli on 22/11/22.
+//  Created by Sonia Di Nicoli on 24/11/22.
 //
 
 import SwiftUI
 
-struct DiscoverView: View {
-    @State private var searchText = ""
-    
+struct ActivityView: View {
     var body: some View {
         NavigationView{
             ZStack{
@@ -21,7 +19,7 @@ struct DiscoverView: View {
                     
                     
                 }
-                .navigationTitle("Discover")
+                .navigationTitle("Activity")
                 .toolbar {
                     ToolbarItem(placement: .navigationBarTrailing)                {
                         NavigationLink(destination: Text("wewe")) {
@@ -45,10 +43,10 @@ struct DiscoverView: View {
         }
         .preferredColorScheme(.dark)
     }
-    
-    struct DiscoverView_Previews: PreviewProvider {
-        static var previews: some View {
-            DiscoverView()
-        }
+}
+
+struct ActivityView_Previews: PreviewProvider {
+    static var previews: some View {
+        ActivityView()
     }
 }

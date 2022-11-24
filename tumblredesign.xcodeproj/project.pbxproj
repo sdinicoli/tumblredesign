@@ -19,6 +19,7 @@
 		FA736E59292F6294001383C9 /* PostInfrastructure3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA736E58292F6294001383C9 /* PostInfrastructure3.swift */; };
 		FA736E5C292F756D001383C9 /* ForYouDash.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA736E5B292F756D001383C9 /* ForYouDash.swift */; };
 		FA736E5E292F75E7001383C9 /* YourTagsDash.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA736E5D292F75E7001383C9 /* YourTagsDash.swift */; };
+		FA736E60292F8E7D001383C9 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA736E5F292F8E7D001383C9 /* ActivityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		FA736E58292F6294001383C9 /* PostInfrastructure3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostInfrastructure3.swift; sourceTree = "<group>"; };
 		FA736E5B292F756D001383C9 /* ForYouDash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouDash.swift; sourceTree = "<group>"; };
 		FA736E5D292F75E7001383C9 /* YourTagsDash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourTagsDash.swift; sourceTree = "<group>"; };
+		FA736E5F292F8E7D001383C9 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			children = (
 				FA6E9E40292B7B770062D802 /* tumblredesignApp.swift */,
 				FA6E9E42292B7B770062D802 /* ContentView.swift */,
+				FA736E5F292F8E7D001383C9 /* ActivityView.swift */,
 				FA2F3F8D292CC4A300993327 /* PostInfrastructure.swift */,
 				FA736E55292F60C1001383C9 /* PostInfrastructure2.swift */,
 				FA736E58292F6294001383C9 /* PostInfrastructure3.swift */,
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA736E60292F8E7D001383C9 /* ActivityView.swift in Sources */,
 				FA6E9E43292B7B770062D802 /* ContentView.swift in Sources */,
 				FA6E9E4F292B7DB40062D802 /* DashboardView.swift in Sources */,
 				FA6E9E41292B7B770062D802 /* tumblredesignApp.swift in Sources */,

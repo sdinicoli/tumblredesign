@@ -19,7 +19,7 @@ struct ContentView: View {
                         Text("Editor")}.tag(1)
                     DiscoverView().tabItem {Label("Discover", systemImage: "magnifyingglass")
                         Text("Editor")}.tag(2)
-                    Text("Tab Content 2").tabItem {Label("Activity", systemImage: "bolt.fill")
+                    ActivityView().tabItem {Label("Activity", systemImage: "bolt.fill")
                         Text("Editor")}.tag(3)
                 }
               

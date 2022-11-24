@@ -66,8 +66,8 @@ struct DashboardView: View {
             
             switch selectedFeed {
             case .following: FollowingDash()
-            case .forYou: FollowingDash()
-            case .yourTags: FollowingDash()
+            case .forYou: ForYouDash()
+            case .yourTags: YourTagsDash()
                 
             }
         }

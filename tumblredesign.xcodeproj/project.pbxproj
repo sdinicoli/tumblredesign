@@ -17,6 +17,8 @@
 		FA736E54292D3CD7001383C9 /* FollowingDash.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA736E53292D3CD7001383C9 /* FollowingDash.swift */; };
 		FA736E56292F60C1001383C9 /* PostInfrastructure2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA736E55292F60C1001383C9 /* PostInfrastructure2.swift */; };
 		FA736E59292F6294001383C9 /* PostInfrastructure3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA736E58292F6294001383C9 /* PostInfrastructure3.swift */; };
+		FA736E5C292F756D001383C9 /* ForYouDash.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA736E5B292F756D001383C9 /* ForYouDash.swift */; };
+		FA736E5E292F75E7001383C9 /* YourTagsDash.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA736E5D292F75E7001383C9 /* YourTagsDash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		FA736E53292D3CD7001383C9 /* FollowingDash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingDash.swift; sourceTree = "<group>"; };
 		FA736E55292F60C1001383C9 /* PostInfrastructure2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostInfrastructure2.swift; sourceTree = "<group>"; };
 		FA736E58292F6294001383C9 /* PostInfrastructure3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostInfrastructure3.swift; sourceTree = "<group>"; };
+		FA736E5B292F756D001383C9 /* ForYouDash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouDash.swift; sourceTree = "<group>"; };
+		FA736E5D292F75E7001383C9 /* YourTagsDash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourTagsDash.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +73,9 @@
 				FA736E55292F60C1001383C9 /* PostInfrastructure2.swift */,
 				FA736E58292F6294001383C9 /* PostInfrastructure3.swift */,
 				FA6E9E4E292B7DB40062D802 /* DashboardView.swift */,
+				FA736E5D292F75E7001383C9 /* YourTagsDash.swift */,
 				FA2F3F8B292CC3D400993327 /* DiscoverView.swift */,
+				FA736E5B292F756D001383C9 /* ForYouDash.swift */,
 				FA736E53292D3CD7001383C9 /* FollowingDash.swift */,
 				FA6E9E44292B7B780062D802 /* Assets.xcassets */,
 				FA6E9E46292B7B780062D802 /* Preview Content */,
@@ -158,9 +164,11 @@
 				FA6E9E43292B7B770062D802 /* ContentView.swift in Sources */,
 				FA6E9E4F292B7DB40062D802 /* DashboardView.swift in Sources */,
 				FA6E9E41292B7B770062D802 /* tumblredesignApp.swift in Sources */,
+				FA736E5E292F75E7001383C9 /* YourTagsDash.swift in Sources */,
 				FA2F3F8E292CC4A300993327 /* PostInfrastructure.swift in Sources */,
 				FA2F3F8C292CC3D400993327 /* DiscoverView.swift in Sources */,
 				FA736E56292F60C1001383C9 /* PostInfrastructure2.swift in Sources */,
+				FA736E5C292F756D001383C9 /* ForYouDash.swift in Sources */,
 				FA736E59292F6294001383C9 /* PostInfrastructure3.swift in Sources */,
 				FA736E54292D3CD7001383C9 /* FollowingDash.swift in Sources */,
 			);
